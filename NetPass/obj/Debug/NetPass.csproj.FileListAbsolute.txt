@@ -1,0 +1,10 @@
+C:\Users\48far\source\repos\NetPass\NetPass\bin\Debug\NetPass.exe.config
+C:\Users\48far\source\repos\NetPass\NetPass\bin\Debug\NetPass.exe
+C:\Users\48far\source\repos\NetPass\NetPass\bin\Debug\NetPass.pdb
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.csprojAssemblyReference.cache
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.Form1.resources
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.Properties.Resources.resources
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.csproj.GenerateResource.cache
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.csproj.CoreCompileInputs.cache
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.exe
+C:\Users\48far\source\repos\NetPass\NetPass\obj\Debug\NetPass.pdb

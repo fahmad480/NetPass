@@ -86,7 +86,13 @@ namespace NetPass
                         sw.WriteLine("PUSHD '%_arch%'".Replace("'", "\""));
                         sw.WriteLine("".Replace("'", "\""));
                         sw.WriteLine("@ECHO OFF");
-                        sw.WriteLine("start /min 'goodbyedpii' 'resources/x86_64/goodbyedpi.exe' -1 --dns-addr 77.88.8.8 --dns-port 1253 --dnsv6-addr 2a02:6b8::feed:0ff --dnsv6-port 1253".Replace("'", "\""));
+                        if (Environment.Is64BitOperatingSystem == true)
+                        {
+                            sw.WriteLine("start /min 'goodbyedpii' 'resources/x86_64/goodbyedpi.exe' -1 --dns-addr 77.88.8.8 --dns-port 1253 --dnsv6-addr 2a02:6b8::feed:0ff --dnsv6-port 1253".Replace("'", "\""));
+                        } else
+                        {
+                            sw.WriteLine("start /min 'goodbyedpii' 'resources/x86/goodbyedpi.exe' -1 --dns-addr 77.88.8.8 --dns-port 1253 --dnsv6-addr 2a02:6b8::feed:0ff --dnsv6-port 1253".Replace("'", "\""));
+                        }
                         sw.WriteLine("".Replace("'", "\""));
                         sw.WriteLine("POPD".Replace("'", "\""));
                         sw.WriteLine("POPD".Replace("'", "\""));
